@@ -6,11 +6,15 @@
 //
 
 import SwiftUI
+import MapKit
 
 @main
 struct LakefieldMapApp: App {
+    
     var body: some Scene {
+        
         WindowGroup {
+            
             ContentView()
         }
     }
