@@ -21,6 +21,8 @@
 		5702470225C31A5E004D25C8 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5702470025C31A5E004D25C8 /* Landmark.swift */; };
 		5702470825C31A77004D25C8 /* Landmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5702470725C31A77004D25C8 /* Landmarks.swift */; };
 		5702470925C31A77004D25C8 /* Landmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5702470725C31A77004D25C8 /* Landmarks.swift */; };
+		5702471625C32020004D25C8 /* Landmarks.json in Resources */ = {isa = PBXBuildFile; fileRef = 5702471525C32020004D25C8 /* Landmarks.json */; };
+		5702471725C32020004D25C8 /* Landmarks.json in Resources */ = {isa = PBXBuildFile; fileRef = 5702471525C32020004D25C8 /* Landmarks.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,7 @@
 		570246F925C319CF004D25C8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		5702470025C31A5E004D25C8 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		5702470725C31A77004D25C8 /* Landmarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmarks.swift; sourceTree = "<group>"; };
+		5702471525C32020004D25C8 /* Landmarks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Landmarks.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,7 @@
 		570246C425C318C9004D25C8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				5702471525C32020004D25C8 /* Landmarks.json */,
 				570246C625C318C9004D25C8 /* ContentView.swift */,
 				5702470025C31A5E004D25C8 /* Landmark.swift */,
 				5702470725C31A77004D25C8 /* Landmarks.swift */,
@@ -193,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				570246DC25C318CD004D25C8 /* Assets.xcassets in Resources */,
+				5702471625C32020004D25C8 /* Landmarks.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				570246DD25C318CD004D25C8 /* Assets.xcassets in Resources */,
+				5702471725C32020004D25C8 /* Landmarks.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

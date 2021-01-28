@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+//Create the list of locations
+
+let landmarks = [
+    {
+        "id": 1,
+        "name": ""
+        
+    }
+
+]
