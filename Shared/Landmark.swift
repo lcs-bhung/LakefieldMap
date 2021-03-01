@@ -16,10 +16,12 @@ struct Landmark {
     let image: String
     
     
-    static let example = Landmark(id: <#T##Int#>,
-                                 name: <#T##String#>,
-                                 description: <#T##String#>,
-                                 latitude: <#T##Double#>,
-                                 longitude: <#T##Double#>,
-                                 image: <#T##String#>)
+//    static let example = Landmark(id: 4,
+//                                 name: <#T##String#>,
+//                                 description: <#T##String#>,
+//                                 latitude: <#T##Double#>,
+//                                 longitude: <#T##Double#>,
+//                                 image: <#T##String#>)
+//
+    
 }

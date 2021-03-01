@@ -12,10 +12,11 @@ import MapKit
 struct LakefieldMapApp: App {
     
     var body: some Scene {
-        
         WindowGroup {
             
-            ContentView()
+            
+            
+            MapView()
         }
     }
 }
