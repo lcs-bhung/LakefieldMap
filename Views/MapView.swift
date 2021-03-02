@@ -10,7 +10,7 @@ import MapKit
 
 struct MapView: View {
     
-    
+    @ObservedObject var store: Landmark
     
     @State var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 44.43922, longitude: -78.26571), span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
 //
@@ -18,22 +18,28 @@ struct MapView: View {
 //    lakefieldCollegeSchool.title"Lakefield College School"
 //
     var body: some View {
-        Map(coordinateRegion: $region)
+        Map(coordinateRegion: $region, annotationItems: Landmark.Landmark){
+            location in
+            
+            MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: Landmark.latitude, longitude: Landmark.longitude))
+        
+        }
             .navigationTitle("LCS Map")
         
         
         
         
-MapAnnotation(coordinate: (latitude: 44.43922, longitude: -78.26571), content: "Lakefield College School")
+
            
-    }
+    
 }
 
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView{
-        MapView()
+            MapView(store: Landmark)
         }
     }
+}
 }

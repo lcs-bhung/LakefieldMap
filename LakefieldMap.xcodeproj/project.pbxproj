@@ -17,8 +17,6 @@
 		570246FB25C319CF004D25C8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570246F925C319CF004D25C8 /* DetailView.swift */; };
 		5702470125C31A5E004D25C8 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5702470025C31A5E004D25C8 /* Landmark.swift */; };
 		5702470225C31A5E004D25C8 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5702470025C31A5E004D25C8 /* Landmark.swift */; };
-		5702470825C31A77004D25C8 /* LandmarkStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5702470725C31A77004D25C8 /* LandmarkStore.swift */; };
-		5702470925C31A77004D25C8 /* LandmarkStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5702470725C31A77004D25C8 /* LandmarkStore.swift */; };
 		5702471625C32020004D25C8 /* Landmarks.json in Resources */ = {isa = PBXBuildFile; fileRef = 5702471525C32020004D25C8 /* Landmarks.json */; };
 		5702471725C32020004D25C8 /* Landmarks.json in Resources */ = {isa = PBXBuildFile; fileRef = 5702471525C32020004D25C8 /* Landmarks.json */; };
 /* End PBXBuildFile section */
@@ -34,7 +32,6 @@
 		570246F225C319B7004D25C8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		570246F925C319CF004D25C8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		5702470025C31A5E004D25C8 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
-		5702470725C31A77004D25C8 /* LandmarkStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkStore.swift; sourceTree = "<group>"; };
 		5702471525C32020004D25C8 /* Landmarks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Landmarks.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -73,7 +70,6 @@
 			children = (
 				5702471525C32020004D25C8 /* Landmarks.json */,
 				5702470025C31A5E004D25C8 /* Landmark.swift */,
-				5702470725C31A77004D25C8 /* LandmarkStore.swift */,
 				570246C725C318CD004D25C8 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -213,7 +209,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5702470825C31A77004D25C8 /* LandmarkStore.swift in Sources */,
 				570246F325C319B7004D25C8 /* MapView.swift in Sources */,
 				570246FA25C319CF004D25C8 /* DetailView.swift in Sources */,
 				570246D825C318CD004D25C8 /* LakefieldMapApp.swift in Sources */,
@@ -225,7 +220,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5702470925C31A77004D25C8 /* LandmarkStore.swift in Sources */,
 				570246F425C319B7004D25C8 /* MapView.swift in Sources */,
 				570246FB25C319CF004D25C8 /* DetailView.swift in Sources */,
 				570246D925C318CD004D25C8 /* LakefieldMapApp.swift in Sources */,
