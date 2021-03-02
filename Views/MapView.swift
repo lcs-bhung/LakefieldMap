@@ -24,8 +24,7 @@ struct MapView: View {
         
         
         
-        
-//        MapAnnotation(coordinate: (latitude: 44.43922, longitude: -78.26571), content: "Lakefield College School")
+MapAnnotation(coordinate: (latitude: 44.43922, longitude: -78.26571), content: "Lakefield College School")
            
     }
 }
