@@ -17,11 +17,11 @@ struct MapView: View {
 //    let lakefieldCollegeSchool = MapAnnotation()
 //    lakefieldCollegeSchool.title"Lakefield College School"
 //
-    var body: some View {
-        Map(coordinateRegion: $region, annotationItems: Landmark.Landmark){
-            location in
-            
-            MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: Landmark.latitude, longitude: Landmark.longitude))
+//    var body: some View {
+//        Map(coordinateRegion: $region, annotationItems: store.Landmark){
+//            location in
+//
+//            MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: Landmark.latitude, longitude: Landmark.longitude))
         
         }
             .navigationTitle("LCS Map")
